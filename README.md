@@ -14,7 +14,8 @@ All functions are exportable, but not exported by default.
 
     my $bool = is_devel_hidden;
 
-Returns true if [Devel::Hide](https://metacpan.org/pod/Devel::Hide) is loaded and currently on.
+Returns true if [Devel::Hide](https://metacpan.org/pod/Devel::Hide), or [Test::Without::Module](https://metacpan.org/pod/Test::Without::Module) is loaded and currently active.  Other
+similar modules may be added in the future as needed.
 
 # AUTHOR
 
